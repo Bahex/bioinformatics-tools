@@ -4,7 +4,7 @@
 in
   pkgs.buildEnv {
     name = "bioinfo-tools";
-    packages =
+    paths =
       [
         beagle
         eigensoft
